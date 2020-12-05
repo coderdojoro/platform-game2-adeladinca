@@ -24,6 +24,7 @@ class Hero extends Phaser.GameObjects.Sprite {
         this.keyLeft = scene.input.keyboard.addKey(Phaser.Input.Keyboard.KeyCodes.LEFT);
         this.keyRight = scene.input.keyboard.addKey(Phaser.Input.Keyboard.KeyCodes.RIGHT);
 
+
     }
 
     preUpdate(time, delta) {
